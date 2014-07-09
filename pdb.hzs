@@ -1,0 +1,110 @@
+<!DOCTYPE CrossStudio_for_ARM_Session_File>
+<session>
+ <Bookmarks/>
+ <Breakpoints/>
+ <ExecutionProfileWindow/>
+ <Memory1>
+  <MemoryWindow autoEvaluate="0" addressText="0x1FFF7800" numColumns="8" sizeText="12" dataSize="4" radix="16" name="pdb" addressSpace="" />
+ </Memory1>
+ <Memory2>
+  <MemoryWindow autoEvaluate="0" addressText="" numColumns="8" sizeText="" dataSize="1" radix="16" name="pdb" addressSpace="" />
+ </Memory2>
+ <Memory3>
+  <MemoryWindow autoEvaluate="0" addressText="" numColumns="8" sizeText="" dataSize="1" radix="16" name="pdb" addressSpace="" />
+ </Memory3>
+ <Memory4>
+  <MemoryWindow autoEvaluate="0" addressText="" numColumns="8" sizeText="" dataSize="1" radix="16" name="pdb" addressSpace="" />
+ </Memory4>
+ <Project>
+  <ProjectSessionItem path="pdb" name="unnamed" />
+  <ProjectSessionItem path="pdb;pdb" name="unnamed" />
+  <ProjectSessionItem path="pdb;pdb;Source Files" name="unnamed" />
+ </Project>
+ <Register1>
+  <RegisterWindow openNodes="DAC;DAC/CR" binaryNodes="" hiddenNodes="" unsignedNodes="" visibleGroups="CPU - Current Context;CPU;CAN1" decimalNodes="CPU/r2;DAC/DHR12R2" octalNodes="" asciiNodes="" name="pdb" />
+ </Register1>
+ <Register2>
+  <RegisterWindow openNodes="" binaryNodes="" hiddenNodes="" unsignedNodes="" visibleGroups="CPU - Current Context;CPU" decimalNodes="" octalNodes="" asciiNodes="" name="pdb" />
+ </Register2>
+ <Register3>
+  <RegisterWindow openNodes="" binaryNodes="" hiddenNodes="" unsignedNodes="" visibleGroups="CPU - Current Context;CPU" decimalNodes="" octalNodes="" asciiNodes="" name="pdb" />
+ </Register3>
+ <Register4>
+  <RegisterWindow openNodes="" binaryNodes="" hiddenNodes="" unsignedNodes="" visibleGroups="CPU - Current Context;CPU" decimalNodes="" octalNodes="" asciiNodes="" name="pdb" />
+ </Register4>
+ <TargetWindow programAction="" uploadFileType="" programLoadAddress="" programSize="" uploadFileName="" uploadMemoryInterface="" programFileName="" uploadStartAddress="" programFileType="" uploadSize="" programMemoryInterface="" />
+ <TraceWindow>
+  <Trace enabled="Yes" />
+ </TraceWindow>
+ <Watch1>
+  <Watches active="1" update="Twice a Second" >
+   <Watchpoint linenumber="0" radix="10" name="analogData" expression="analogData" filename="" />
+   <Watchpoint linenumber="0" radix="10" name="supervisorData" expression="supervisorData" filename="" />
+   <Watchpoint linenumber="0" radix="-1" name="renderData" expression="renderData" filename="" />
+   <Watchpoint linenumber="0" radix="10" name="sensorsData" expression="sensorsData" filename="" />
+   <Watchpoint linenumber="0" radix="10" name="osdData" expression="osdData" filename="" />
+  </Watches>
+ </Watch1>
+ <Watch2>
+  <Watches active="0" update="Never" >
+   <Watchpoint linenumber="0" radix="-1" name="_BFAR" expression="_BFAR" filename="" />
+   <Watchpoint linenumber="0" radix="-1" name="stacked_pc" expression="stacked_pc" filename="" />
+   <Watchpoint linenumber="0" radix="2" name="_CFSR" expression="_CFSR" filename="" />
+   <Watchpoint linenumber="0" radix="2" name="_HFSR" expression="_HFSR" filename="" />
+   <Watchpoint linenumber="0" radix="-1" name="0xe000ef30" expression="0xe000ef30" filename="" />
+   <Watchpoint linenumber="0" radix="16" name="FPU" expression="FPU" filename="" />
+  </Watches>
+ </Watch2>
+ <Watch3>
+  <Watches active="0" update="Never" />
+ </Watch3>
+ <Watch4>
+  <Watches active="0" update="Never" />
+ </Watch4>
+ <Files>
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/Users/bn/Documents/pdb/main.c" y="36" path="/Users/bn/Documents/pdb/main.c" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/Users/bn/Documents/pdb/can.h" y="87" path="/Users/bn/Documents/pdb/can.h" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/Users/bn/Documents/pdb/switch.c" y="31" path="/Users/bn/Documents/pdb/switch.c" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/Users/bn/Documents/pdb/can.c" y="18" path="/Users/bn/Documents/pdb/can.c" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/Users/bn/Documents/pdb/switch.h" y="24" path="/Users/bn/Documents/pdb/switch.h" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/Users/bn/Documents/pdb/osd.c" y="94" path="/Users/bn/Documents/pdb/osd.c" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/Users/bn/Documents/pdb/osd.h" y="37" path="/Users/bn/Documents/pdb/osd.h" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="3" debugPath="/Users/bn/Documents/pdb/digital.h" y="27" path="/Users/bn/Documents/pdb/digital.h" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/Users/bn/Documents/pdb/osdDriver.c" y="18" path="/Users/bn/Documents/pdb/osdDriver.c" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/Users/bn/Documents/pdb/opto.c" y="25" path="/Users/bn/Documents/pdb/opto.c" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/Users/bn/Documents/pdb/opto.h" y="26" path="/Users/bn/Documents/pdb/opto.h" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/Users/bn/Documents/pdb/esc.h" y="0" path="/Users/bn/Documents/pdb/esc.h" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/Users/bn/Documents/pdb/esc.c" y="26" path="/Users/bn/Documents/pdb/esc.c" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/Users/bn/Documents/pdb/analog.c" y="0" path="/Users/bn/Documents/pdb/analog.c" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/Users/bn/Documents/pdb/analog.h" y="0" path="/Users/bn/Documents/pdb/analog.h" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/Users/bn/Documents/pdb/aq_timer.c" y="0" path="/Users/bn/Documents/pdb/aq_timer.c" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/Users/bn/Documents/pdb/aq_timer.h" y="0" path="/Users/bn/Documents/pdb/aq_timer.h" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/Users/bn/Documents/pdb/board.h" y="0" path="/Users/bn/Documents/pdb/board.h" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/Users/bn/Documents/pdb/font.c" y="0" path="/Users/bn/Documents/pdb/font.c" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/Users/bn/Documents/pdb/font.h" y="0" path="/Users/bn/Documents/pdb/font.h" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/Users/bn/Documents/pdb/graph.c" y="18" path="/Users/bn/Documents/pdb/graph.c" left="0" selected="0" name="unnamed" top="283" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/Users/bn/Documents/pdb/graph.h" y="18" path="/Users/bn/Documents/pdb/graph.h" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/Users/bn/Documents/pdb/idle.c" y="0" path="/Users/bn/Documents/pdb/idle.c" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/Users/bn/Documents/pdb/idle.h" y="0" path="/Users/bn/Documents/pdb/idle.h" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/Users/bn/Documents/pdb/logo_black.c" y="18" path="/Users/bn/Documents/pdb/logo_black.c" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/Users/bn/Documents/pdb/logo_white.c" y="18" path="/Users/bn/Documents/pdb/logo_white.c" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/Users/bn/Documents/pdb/main.h" y="0" path="/Users/bn/Documents/pdb/main.h" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/Users/bn/Documents/pdb/pwm.c" y="0" path="/Users/bn/Documents/pdb/pwm.c" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/Users/bn/Documents/pdb/pwm.h" y="0" path="/Users/bn/Documents/pdb/pwm.h" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/Users/bn/Documents/pdb/rcc.c" y="0" path="/Users/bn/Documents/pdb/rcc.c" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/Users/bn/Documents/pdb/rcc.h" y="0" path="/Users/bn/Documents/pdb/rcc.h" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="35" debugPath="/Users/bn/Documents/pdb/render.c" y="504" path="/Users/bn/Documents/pdb/render.c" left="0" selected="1" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/Users/bn/Documents/pdb/render.h" y="18" path="/Users/bn/Documents/pdb/render.h" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/Users/bn/Documents/pdb/sensors.c" y="18" path="/Users/bn/Documents/pdb/sensors.c" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/Users/bn/Documents/pdb/sensors.h" y="18" path="/Users/bn/Documents/pdb/sensors.h" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/Users/bn/Documents/pdb/serial.c" y="0" path="/Users/bn/Documents/pdb/serial.c" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/Users/bn/Documents/pdb/serial.h" y="0" path="/Users/bn/Documents/pdb/serial.h" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/Users/bn/Documents/pdb/spi.c" y="18" path="/Users/bn/Documents/pdb/spi.c" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/Users/bn/Documents/pdb/spi.h" y="18" path="/Users/bn/Documents/pdb/spi.h" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/Users/bn/Documents/pdb/supervisor.c" y="18" path="/Users/bn/Documents/pdb/supervisor.c" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/Users/bn/Documents/pdb/supervisor.h" y="18" path="/Users/bn/Documents/pdb/supervisor.h" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/Users/bn/Documents/pdb/util.c" y="18" path="/Users/bn/Documents/pdb/util.c" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/Users/bn/Documents/pdb/util.h" y="18" path="/Users/bn/Documents/pdb/util.h" left="0" selected="0" name="unnamed" top="0" />
+ </Files>
+ <ARMCrossStudioWindow activeProject="pdb" autoConnectTarget="USB CrossConnect for ARM" debugSearchFileMap="" fileDialogInitialDirectory="" fileDialogDefaultFilter="*.c" autoConnectCapabilities="266111" debugSearchPath="" buildConfiguration="THUMB Release" />
+</session>

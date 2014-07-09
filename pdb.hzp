@@ -1,0 +1,79 @@
+<!DOCTYPE CrossStudio_Project_File>
+<solution Name="pdb" target="8" version="2">
+  <project Name="pdb">
+    <configuration Name="Common" Placement="Flash" Target="STM32F405RG" arm_architecture="v7EM" arm_core_type="Cortex-M4" arm_fp_abi="Hard" arm_fpu_type="FPv4-SP-D16" arm_gcc_target="arm-unknown-eabi" arm_linker_heap_size="4096" arm_linker_jtag_pad_pre_dr="1" arm_linker_jtag_pad_pre_ir="5" arm_linker_process_stack_size="0" arm_linker_stack_size="1024" arm_simulator_memory_simulation_filename="$(TargetsDir)/STM32/STM32SimulatorMemory.dll" arm_simulator_memory_simulation_parameter="STM32F405RG;0x100000;0x20000" arm_target_connect_with_reset="Yes" arm_target_debug_interface_type="ADIv5" arm_target_interface_type="Default" arm_target_loader_applicable_loaders="Flash" arm_target_loader_default_loader="Flash" arm_target_restrict_memory_accesses="Yes" c_preprocessor_definitions="USE_STDPERIPH_DRIVER;VECTORS_IN_RAM;VECT_TAB_SRAM" c_user_include_directories="$(ProjectDir);$(TargetsDir)/STM32/include;$(TargetsDir)/CMSIS_3/CMSIS/Include;$(ProjectDir)/../STM32F4xx_DSP_StdPeriph_Lib_V1.3.0/Libraries/STM32F4xx_StdPeriph_Driver/inc;$(ProjectDir)/../STM32F4xx_DSP_StdPeriph_Lib_V1.3.0/Utilities/STM32_EVAL/Common;$(ProjectDir)/../uThread" linker_memory_map_file="$(TargetsDir)/STM32/STM32F405RG_MemoryMap.xml" linker_output_format="hex" linker_printf_fp_enabled="Yes" linker_scanf_character_group_matching_enabled="Yes" linker_scanf_fp_enabled="Yes" linker_section_placement_file="$(StudioDir)/targets/Cortex_M/flash_placement.xml" project_directory="" project_type="Executable" property_groups_file_path="$(TargetsDir)/STM32/propertyGroups.xml" target_get_partname_script="GetPartName()" target_match_partname_script="MatchPartName(&quot;$(Target)&quot;)" target_reset_script="Reset()" target_trace_initialize_script="EnableTrace(&quot;$(TraceInterfaceType)&quot;)"/>
+    <configuration Name="Flash" arm_target_flash_loader_file_path="$(TargetsDir)/STM32/Release/STM32F2xx_Loader_rpc.elf" arm_target_flash_loader_type="LIBMEM RPC Loader" arm_target_loader_can_erase_all="Yes" arm_target_loader_can_lock_all="No" arm_target_loader_can_lock_range="No" arm_target_loader_can_unlock_all="No" arm_target_loader_can_unlock_range="No" target_reset_script="FLASHReset()"/>
+    <folder Name="Source Files" file_name="">
+      <configuration Name="Common" filter="c;cpp;cxx;cc;h;s;asm;inc"/>
+      <file file_name="main.c"/>
+      <file file_name="rcc.c"/>
+      <file file_name="rcc.h"/>
+      <file file_name="main.h"/>
+      <file file_name="analog.c"/>
+      <file file_name="analog.h"/>
+      <file file_name="board.h"/>
+      <file file_name="aq_timer.c"/>
+      <file file_name="aq_timer.h"/>
+      <file file_name="serial.c"/>
+      <file file_name="serial.h"/>
+      <file file_name="digital.c"/>
+      <file file_name="digital.h"/>
+      <file file_name="idle.c"/>
+      <file file_name="idle.h"/>
+      <file file_name="supervisor.c"/>
+      <file file_name="supervisor.h"/>
+      <file file_name="comm.h"/>
+      <file file_name="comm.c"/>
+      <file file_name="can.c"/>
+      <file file_name="can.h"/>
+      <file file_name="pwm.c"/>
+      <file file_name="pwm.h"/>
+      <file file_name="util.h"/>
+      <file file_name="util.c"/>
+      <file file_name="esc.h"/>
+      <file file_name="esc.c"/>
+      <file file_name="osd.h"/>
+      <file file_name="spi.c"/>
+      <file file_name="spi.h"/>
+      <file file_name="graph.h"/>
+      <file file_name="graph.c"/>
+      <file file_name="logo_white.c"/>
+      <file file_name="logo_black.c"/>
+      <file file_name="render.h"/>
+      <file file_name="render.c"/>
+      <file file_name="sensors.h"/>
+      <file file_name="sensors.c"/>
+      <file file_name="osdDriver.c"/>
+      <file file_name="osd.c"/>
+      <file file_name="font.c"/>
+      <file file_name="font.h"/>
+      <file file_name="switch.c"/>
+      <file file_name="switch.h"/>
+      <file file_name="opto.c"/>
+      <file file_name="opto.h"/>
+    </folder>
+    <folder Name="System Files" file_name="">
+      <file file_name="$(StudioDir)/source/thumb_crt0.s"/>
+      <file file_name="$(TargetsDir)/STM32/STM32_Startup.s"/>
+      <file file_name="$(TargetsDir)/STM32/STM32_Target.js">
+        <configuration Name="Common" file_type="Reset Script"/>
+      </file>
+      <file file_name="stm32f4xx_conf.h"/>
+      <file file_name="../STM32F4xx_DSP_StdPeriph_Lib_V1.3.0/Libraries/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c"/>
+      <file file_name="flash_placement.xml"/>
+    </folder>
+    <folder Name="STM StdPeriph" exclude="stm32f4xx_fmc.c" filter="*.c;*.h" path="../STM32F4xx_DSP_StdPeriph_Lib_V1.3.0/Libraries/STM32F4xx_StdPeriph_Driver" recurse="Yes"/>
+    <configuration Name="Release" c_preprocessor_definitions="STARTUP_FROM_RESET" gcc_debugging_level="Level 2" gcc_optimization_level="Level 1"/>
+    <configuration Name="Debug" c_preprocessor_definitions="USE_FULL_ASSERT" gcc_debugging_level="Level 3"/>
+    <folder Name="xxHash" file_name="">
+      <file file_name="xxhash.c"/>
+      <file file_name="xxhash.h"/>
+    </folder>
+    <folder Name="uThread" exclude="" filter="*.c;*.h" path="../uThread" recurse="Yes"/>
+  </project>
+  <configuration Name="THUMB Debug" inherited_configurations="THUMB;Debug"/>
+  <configuration Name="THUMB" Platform="ARM" arm_instruction_set="THUMB" arm_library_instruction_set="THUMB" c_preprocessor_definitions="__THUMB" hidden="Yes"/>
+  <configuration Name="Debug" c_preprocessor_definitions="DEBUG" gcc_debugging_level="Level 2" gcc_optimization_level="None" hidden="Yes"/>
+  <configuration Name="THUMB Release" inherited_configurations="THUMB;Release"/>
+  <configuration Name="Release" c_preprocessor_definitions="NDEBUG" gcc_debugging_level="Level 1" gcc_optimization_level="Level 1" hidden="Yes"/>
+</solution>
